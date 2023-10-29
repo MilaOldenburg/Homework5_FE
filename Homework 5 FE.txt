@@ -1,0 +1,44 @@
+1.
+//let num = Number(prompt("Введите число"))
+// console.log(`10% от ${num} = ${num * 0.1}`)
+
+
+2.
+/*let firstNum = +prompt("Введите первое число")
+ let secondNum = +prompt("Введите второе число")
+
+ if (firstNum < secondNum) {
+  console.log(firstNum)
+ } else if(firstNum > secondNum) {
+   console.log(secondNum)
+ } else {
+   console.log("равны")}*/
+
+
+   3.
+/*const userInput = parseFloat(prompt("Введите число:"));
+if (!isNaN(userInput)) {
+  if (userInput < 100) {
+    console.log("Число меньше 100");
+  } else if (userInput > 100) {
+    console.log("Число больше 100");
+  } else {
+    console.log("Число равно 100");
+  }
+} else {
+  console.log("Вы ввели некорректное число.");
+}*/
+
+
+
+
+4.
+const name = prompt("Напишите свое имя")
+const age = +prompt("Введите ващ возраст в годах")
+
+if (age < 18) {
+  console.log(`Hi, ${name}`);
+} else {
+  console.log(`‘Hello, ${name}`);
+}
+
